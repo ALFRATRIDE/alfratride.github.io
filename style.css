@@ -6,7 +6,7 @@ body, html {
 
     background-image: url('background_sigh.png');
     background-position: center;
-    background-repeat: inherit;
+    background-repeat: no-repeat;
     background-blend-mode: multiply;
     overscroll-behavior-block: contain;
     min-height: 100vh;
