@@ -1,0 +1,14 @@
+.spoiler {
+    height: 180px;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+
+    filter: blur(64px);
+    cursor: pointer;
+    transition: filter 0.2s;
+    user-select: none;
+}
+.spoiler.revealed {
+    filter: none;
+    user-select: auto;
+}

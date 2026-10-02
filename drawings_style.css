@@ -1,0 +1,21 @@
+.drawing_picture1 {
+    height: 180px;
+    grid-column: 1;
+    grid-row: 1;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+}
+.drawing_picture2 {
+    height: 180px;
+    grid-column: 2;
+    grid-row: 1;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+}
+
+.drawing_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 6px;
+}
